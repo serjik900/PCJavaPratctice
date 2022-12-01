@@ -31,6 +31,7 @@ public class MapDemo3 {
         }
     }*/
         items.entrySet().removeIf(entry->entry.getKey().contains("e")&&entry.getValue()>10);
+
         System.out.println(items);
         }
     }
